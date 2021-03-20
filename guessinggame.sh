@@ -14,9 +14,11 @@ echo "congratulations you have guessed it right!!!"
 elif [[ $num -lt $value ]] 
 then
 echo "Your guess is too low"
+echo "Try again"
 out=0
 else
 echo "your guess is too high"
+echo "Try again"
 out=0
 fi
 done
