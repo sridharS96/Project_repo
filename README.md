@@ -1,4 +1,3 @@
 # THE GUESSING GAME
-Saturday 20 March 2021 10:49:07 PM IST
-## Number of lines:
+Saturday 20 March 2021 10:50:47 PM IST
 26
