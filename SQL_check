@@ -1,0 +1,31 @@
+-- Sample SQL script with errors and style issues
+
+CREATE TABLE Employee (
+   id int PRIMARY KEY,
+   name VARCHAR(50),
+   age INT,
+   dept_id INT
+);
+
+-- Missing semicolon and inconsistent indentation
+CREATE TABLE Department (
+   id INT PRIMARY KEY
+   name VARCHAR(50)
+);
+
+-- Inconsistent casing, missing table alias, and unnecessary parentheses
+SELECT e.id, e.name, (E.age), d.name as department
+FROM Employee e
+JOIN Department D ON e.dept_id = d.id
+where e.age > 25;
+
+-- Misspelled column name and missing keyword
+SELECT id, name, agee
+FROM Employee
+ORDER BY name ASC;
+
+-- Use of deprecated data type and unnecessary quotes
+CREATE TABLE Project (
+   project_id NUMBER PRIMARY KEY,
+   "project_name" VARCHAR2(100)
+);
